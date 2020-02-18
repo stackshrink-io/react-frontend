@@ -1,0 +1,7 @@
+- name: Node App Helper Actions
+  uses: guahanweb/action-nodejs-gh-pages@1.0.0
+
+action "Build" {
+  uses = "guahanweb/actions/node-app@master"
+  args = "run build"
+}
