@@ -1,1 +1,1 @@
-# stackShrink.io
+# StackShrink.io
