@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
 
-    runs-on: node-latest
+    runs-on: node
 
     strategy:
       matrix:
