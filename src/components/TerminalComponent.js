@@ -1,37 +1,28 @@
 import React, { Component } from 'react';
 import Terminal from 'terminal-in-react';
 
-class TerminalContainer extends Component {
+class TerminalComponent extends Component {
     showMsg = () => 'Hello World'
 
     render() {
         return (
-            <div
-                style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    height: "100vh"
-                }}
-            >
                 <Terminal
                     color='green'
                     backgroundColor='black'
                     barColor='black'
                     style={{ fontWeight: "bold", fontSize: "1em" }}
                     commands={{
-                        'open-google': () => window.open('https://www.google.com/', '_blank'),
+                        'play-chess': () => window.open('https://www.google.com/', '_blank'),
                         showmsg: this.showMsg,
                         popup: () => alert('Terminal in React')
                     }}
                     descriptions={{
-                        'open-google': 'opens google.com',
+                        'play-chess': 'a magical chess board appears to which you may invite your friends or select an artificial intelligence to accompany you',
                         showmsg: 'shows a message',
                         alert: 'alert', popup: 'alert'
                     }}
-                    msg='You can write anything here. Example - Hello! My name is Foo and I like Bar.'
+                    msg='What would you like to do?'
                 />
-            </div>
         );
     }
-} export default TerminalContainer;
+} export default TerminalComponent;
