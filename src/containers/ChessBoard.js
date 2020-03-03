@@ -6,10 +6,14 @@ class ChessBoard extends Component {
         return (
             <div
                 style={{
-                    padding: "20%"
+                    display: "block",
+                    justifySelf: "center",
+                    alignSelf: "center",
+                    maxHeight: "450px",
+                    maxWidth: "450px"
                 }}
             >
-                <ChessBoardComponent/>
+                <ChessBoardComponent />
             </div>
         );
     }

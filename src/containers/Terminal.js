@@ -12,7 +12,7 @@ class Terminal extends Component {
                     height: "100vh"
                 }}
             >
-                <TerminalComponent/>
+                <TerminalComponent contextSwitcher={this.props.contextSwitcher} />
             </div>
         );
     }
