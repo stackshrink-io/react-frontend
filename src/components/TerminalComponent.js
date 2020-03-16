@@ -13,7 +13,7 @@ class TerminalComponent extends Component {
                     'play-chess': () => this.props.contextSwitcher()
                 }}
                 descriptions={{
-                    'play-chess': 'a magical chess board appears to which you may invite your friends or select an artificial intelligence to accompany you',
+                    'play-chess': 'a magical chess board appears to which you may invite a friend or an artificial intelligence',
                     showmsg: 'shows a message',
                     alert: 'alert', popup: 'alert'
                 }}
