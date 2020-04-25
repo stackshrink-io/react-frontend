@@ -1,1 +1,1 @@
-# StackShrink.io
+# theintelligentmachines.io
