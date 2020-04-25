@@ -1,1 +1,1 @@
-# theintelligentmachines.io
+# TheIntelligentMachines.io
