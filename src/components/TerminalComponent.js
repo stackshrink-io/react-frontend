@@ -17,7 +17,7 @@ class TerminalComponent extends Component {
                     showmsg: 'shows a message',
                     alert: 'alert', popup: 'alert'
                 }}
-                msg='What would you like to do?'
+                msg='What would you like to do? (type "help")'
             />
         );
     }
