@@ -1,2 +1,2 @@
-# TheIntelligentMachines.io
+# Intelligent Machines
 ### Content
