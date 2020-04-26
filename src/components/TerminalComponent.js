@@ -10,7 +10,7 @@ class TerminalComponent extends Component {
                 barColor='black'
                 style={{ fontWeight: "bold", fontSize: "1em" }}
                 commands={{
-                    'play-chess': () => this.props.contextSwitcher()
+                    'play chess': () => this.props.contextSwitcher()
                 }}
                 descriptions={
                     {
