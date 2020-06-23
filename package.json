@@ -14,7 +14,8 @@
     "terminal-in-react": "^4.3.1"
   },
   "resolutions": {
-    "acorn": "^7.1.1"
+    "acorn": "^7.1.1",
+    "minimist": "^1.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
